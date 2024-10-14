@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+#home {
+    padding: 130px;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 580px;
+    background-image: linear-gradient(rgba(0, 0 , 0, 0.75),rgba(0,0,0,0.75)),url(asset/luwuk2.jpg);
+    background-size: cover;
+}
+
+.sulteng1 h1 {
+    font-size: 80px;
+    margin-top: 80px;
+}
+.sulteng1 p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+nav {
+    background-color: rgba(0, 140, 255, 0.5);
+    top: 0;
+    position: sticky;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #3c51a5;
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 20px;
+    display: inline;
+}
+.logo {
+    font-size: 18px;
+    color: black;
+    top: 0;
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+}
+.logo span{
+    color: #00FFFF;
+}
+
+.aboutsulteng {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.aboutsulteng h2 {
+    color: #000080;
+    font-size: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.aboutsulteng-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #000080;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.aboutsulteng1 {
+    width: 45%; /* Mengatur lebar untuk menyesuaikan tata letak */
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc; /* Untuk memberikan batas */
+    box-sizing: border-box;
+}
+
+.aboutsulteng1 p {
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0 rgb(151, 151, 196);
+    margin-top: 10px;
+}
+
+.card h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000080;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+.card h1{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+.card img{
+    flex: 1;
+    padding: 20px;
+    border-radius: 100px;
+}
+.card p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: black;
+    text-align: justify;
+    padding-right: 25px;
+    margin-bottom: 35px;
+}
+main {
+    color: #37434F;
+    padding: 20px;
+    text-align: justify;
+    overflow: auto;
+}
+.sulteng{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0 rgb(151, 151, 196);
+    margin-top: 10px;
+}
+.datadiri{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0 rgb(151, 151, 196);
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    padding-left: 30px;
+}
+
+.image {
+    width: 70%;
+    max-height: 350px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+footer {
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+header h2 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+article h2 {
+    text-align: center;
+}
+.center-text{
+    text-align: center;
+    color: #000;
+}
+.center-text h2{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 120%;
+}
+
+#contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 105%;
+}
+
+.contact-form1,
+.contact-form2 {
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 25px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+
+#text-area {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+}
+
+input.submit {
+    width: 30%;
+    height: 45px;
+    background: #62e5e5;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#text-area {
+    font-size: 18px;
+    border-radius: 10px;
+}
